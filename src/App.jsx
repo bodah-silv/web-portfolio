@@ -30,7 +30,7 @@ export default function App() {
       {/* Nav */}
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b">
         <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="font-semibold">Your Name — Engineering Portfolio</div>
+          <div className="font-semibold">Boda Huo — Engineering Portfolio</div>
           <div className="hidden md:flex items-center gap-6">
             {nav.map(n => (
               <button key={n.id} onClick={() => go(n.id)} className="text-sm hover:underline">
@@ -59,7 +59,7 @@ export default function App() {
       <Section id="about" title="About Me" subtitle="Short intro + targeted skills.">
         <div className="grid md:grid-cols-3 gap-6">
           <div className="md:col-span-2 p-6 rounded-2xl border shadow-sm bg-white">
-            <h3 className="text-lg font-semibold mb-2">Hi, I’m [Your Name]</h3>
+            <h3 className="text-lg font-semibold mb-2">Hi, I’m [Boda Huo]</h3>
             <p className="text-sm leading-relaxed">
               One or two tight paragraphs that position your skills and impact. Call out your core stack
               and the problems you solve.
@@ -75,7 +75,7 @@ export default function App() {
           <div className="p-6 rounded-2xl border shadow-sm bg-white">
             <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
             <div className="grid gap-2 text-sm">
-              <a className="underline" href="mailto:you@example.com">Email</a>
+              <a className="underline" href="mailto:bodah@andrew.cmu.edu">Email</a>
               <a className="underline" href="https://github.com/" target="_blank">GitHub</a>
               <a className="underline" href="https://linkedin.com/" target="_blank">LinkedIn</a>
             </div>
@@ -137,7 +137,7 @@ export default function App() {
       {/* Justification Memo */}
       <Section id="memo" title="Justification Memo" subtitle="Addressed to Professor Wolfe; explain choices and audience fit.">
         <div className="p-6 rounded-2xl border shadow-sm bg-white text-sm space-y-2">
-          <p><strong>To:</strong> Professor Wolfe &nbsp; <strong>From:</strong> [Your Name] &nbsp; <strong>Subject:</strong> Portfolio Design Rationale</p>
+          <p><strong>To:</strong> Professor Wolfe &nbsp; <strong>From:</strong> [Boda Huo] &nbsp; <strong>Subject:</strong> Portfolio Design Rationale</p>
           <p><strong>Target Employers:</strong> Roles + valued skills.</p>
           <p><strong>Content Choices:</strong> Why these projects; what they demonstrate.</p>
           <p><strong>Tailoring:</strong> How headings, keywords, and media highlight required skills.</p>
@@ -154,7 +154,7 @@ export default function App() {
 
       <footer className="border-t mt-12">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between text-xs text-gray-500">
-          <span>© {new Date().getFullYear()} Your Name</span>
+          <span>© {new Date().getFullYear()} Boda <Huo></Huo></span>
           <span>Built with Vite + React + Tailwind</span>
         </div>
       </footer>
