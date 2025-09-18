@@ -154,7 +154,7 @@ export default function App() {
 
       <footer className="border-t mt-12">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between text-xs text-gray-500">
-          <span>© {new Date().getFullYear()} Boda <Huo></Huo></span>
+          <span>© {new Date().getFullYear()} Boda Huo</span>
           <span>Built with Vite + React + Tailwind</span>
         </div>
       </footer>
